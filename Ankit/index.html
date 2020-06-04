@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+body {
+  padding: 25px;
+  background-color: white;
+  color: black;
+  font-size: 25px;
+}
+
+.dark-mode {
+  background-color: black;
+  color: white;
+}
+</style>
+</head>
+<body>
+
+<h2 style="text-align:center;">THEME SWITCHER</h2>
+<br>
+<h3 style="text-align:center;">Day & Night</h3>
+<br>
+<center><button onclick="myFunction()">Switch</button></center>
+<br>
+<center><img src="download.jpg" width="400" height="300"></center>
+
+
+
+<script>
+function myFunction() {
+   var element = document.body;
+   element.classList.toggle("dark-mode");
+}
+</script>
+
+</body>
+</html>
+
